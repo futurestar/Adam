@@ -18,4 +18,4 @@
 		test2 test2
 		test2 test2
 
-[image]: https://github.com/github.png "github"
+[image]: images/iPad_03.png
