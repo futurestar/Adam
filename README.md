@@ -18,4 +18,4 @@
 		test2 test2
 		test2 test2
 
-[image]:http://github.com/unicorn.png
+[image]:http://github.com/unicorn.png "github"
