@@ -17,5 +17,3 @@
 		test2 test2
 		test2 test2
 		test2 test2
-
-[![image]]: ./20141208/images/iPad_03.png
