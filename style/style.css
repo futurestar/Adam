@@ -8,7 +8,6 @@
 #header{ 
 	background-color: #656565;
 	overflow: auto;
-	margin-bottom: 10px;
 }
 
 #header ul{
@@ -61,7 +60,6 @@
 	width: 100%;
 	list-style: none;
 	overflow: auto;
-	margin: 10px 0 10px;
 }
 .nav_bar ul li{
 	float: right;
