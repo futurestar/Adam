@@ -1,296 +1,179 @@
 <!DOCTYPE html>
-
 <html>
 	<head>
 		<meta charset="utf8">
+		<title>This is a test page</title>
+		<script type="text/javascript" src="./JS/jquery-2.0.3.js"></script>
+		<script type="text/javascript" src="./JS/jquery.countdownTimer.js"></script>
+		<script type="text/javascript">
+			$(function(){
+			    $('#future_date').countdowntimer({
+			      dateAndTime : "2015/01/01 00:00:00",
+			      size : "lg"
+			    });
+			});
+		</script>	
 		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" type="text/css" href="style/normalize.css">
 	</head>
 
 	<body>
-		<div id="main-content">
-
-
-			<div id="header">
-				<ul>
-					<li id="header_image1"><a href="javascript:;"><img src="images/iPad_03.png"></a></li>
-					<li><a href="javascript:;">在线商店</a></li>
-					<li><a href="javascript:;" id="mac">Mac</a></li>
-					<li><a href="javascript:;">iPhone</a></li>
-					<li><a href="javascript:;">Watch</a></li>
-					<li><a href="javascript:;">iPad</a></li>
-					<li><a href="javascript:;">iPod</a></li>
-					<li><a href="javascript:;">iTunes</a></li>
-					<li><a href="javascript:;">技术支持</a></li>
-					<li id="header_image2"><a href="javascript:;"><img src="images/iPad_06.png"></a></li>
-				</ul>
-			</div>
-
-			<div class="nav_bar">
-				<ul>
-					<li id="button"><p><a href="javascript:;">立即升级</a></p></li>
-					<li id="how"><p><a href="javascript:;">如何升级</a></p></li>
-					<li><p><a href="javascript:;">OS X 是什么</a></p></li>
-					<li><p><a href="javascript:;">更出色的APP</a></p></li>
-					<li><p><a href="javascript:;">连续互通</a></p></li>
-					<li><p><a href="javascript:;">设计</a></p></li>
-					<li id="logo"><h3><a href="javascript:;">OS X</a></h3></li>
-				</ul>
-			</div>
-
-			<div id="ad">
-				<h1>升级到 OS X Yosemite，</h1>
-				<h1>于 Mac App Store 免费提供。</h1>
-			</div>
-
-
-			<div class="mid_content" id="mid_content1">
-				<h3>1. 查看你的 Mac 硬件</h3>
-				<p>如需查看 Mac 机型的详细信息，请点击屏幕左上角的 Apple 图标，选择 "关于本机"，然后点击 "更多信息"。以下 Mac 机型与 OS X Yosemite 兼容：</p>
-				<ul>
-					<li>iMac (2007 年中期或之后的机型)</li>
-					<li>MacBook (2008 年后期的铝金属机型或 2009 年前期或之后的机型)</li>
-					<li>MacBook Pro (2007 年中期/后期或之后的机型)</li>
-					<li>MacBook Air (2008 年后期或之后的机型)</li>
-					<li>Mac mini (2009 年前期或之后的机型)</li>
-					<li>Mac Pro (2008 年前期或之后的机型)</li>
-					<li>Xserve (2009 年前期)</li>
-				</ul>
-			</div>
-
-			<div class="mid_content" id="mid_content2">
-				<h3>2. 查看你的 OS X 版本</h3>
-				<p>将 "关于本机" 窗口打开后，查看 Mac 运行的是哪个版本的 OS X，你将看到运行的版本号就位于序列号下方。你可从以下版本升级到 OS X Yosemite：</p>
-				<ul>
-					<li>OS X Snow Leopard (10.6.8)</li>
-					<li>OS X Lion (10.7)</li>
-					<li>OS X Mountain Lion (10.8)</li>
-					<li>OS X Mavericks (10.9)</li>
-				</ul>
-				<p>拥有较早版本的 OS X？<a href="javascript:;">了解如何升级 &gt;</a></p>
-			</div>
-
-			<div class="mid_content" id="mid_content3">
-				<h3>3. 免费升级到 OS X Yosemite</h3>
-				<p>访问 Mac App Store 中的 <a href="javascript:;">OS X Yosemite</a> 页面。点击 "下载" 按钮，然后按照屏幕说明开始升级。如果你没有宽带连接，你可以前往任意一家 <a href="javascript:;">Apple Store 零售店</a>升级你的 Mac。</p>
-			</div>
-
-
-			<div class="bottom_info" id="bottom_info1">
-				<h3>基本要求</h3>
-				<div class="main_info">
+		<div class="main-content">
+			<div class="head">
+				<img id="logo" src="./images/twac_logo.png">
+				<div class="h_line1">
+					<h5>THE RACE<br/>STARTS IN:</h5>
+					<div id="countdowntimer"><span id="future_date"><span></div>
+					<img id="atlantic_logo" src="./images/atlanticCampaigns_logo.png">
+				</div>
+				<div class="h_line2">
+					<h5>THE WORLD'S TOUGHEST ROWING RACE</h5>
 					<ul>
-						<li>OS X 10.6.8 或更新版本</li>
-						<li>2GB 内存</li>
-						<li>8GB 可用磁盘空间</li>
-					</ul>
-					<ul>
-						<li>部分功能要求使用 Apple ID；须遵守服务条款。</li>
-						<li>某些功能需要兼容的互联网服务供应商；可能需要付费。</li>
+						<li>
+							<a href="javascript:;">THE CHALLENG</a>
+							<ul>
+								<li><a href="javascript:;">asdf</a></li>
+								<li><a href="javascript:;">asdf</a></li>
+								<li><a href="javascript:;">asdf</a></li>
+								<li><a href="javascript:;">asdf</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;">THE CHALLENG</a>
+							<ul>
+								<li><a href="javascript:;">asdf</a></li>
+								<li><a href="javascript:;">asdf</a></li>
+								<li><a href="javascript:;">asdf</a></li>
+								<li><a href="javascript:;">asdf</a></li>
+							</ul>
+						</li>
+						<li><a href="javascript:;">THE CHALLENG</a></li>
+						<li><a href="javascript:;">THE CHALLENG</a></li>
+						<li><a href="javascript:;">THE CHALLENG</a></li>
 					</ul>
 				</div>
 			</div>
+			
 
-			<div class="bottom_info" id="bottom_info2">
-				<h3>功能要求</h3>
-				<div class="main_info">
-					<div class="detail">
-						<h4>Handoff 和 Instant Hotspot</h4>
-						<p>以下 Mac 机型支持这两项功能：</p>
-
+			<div id='slider' class='swipe'>
+			  <div class='swipe-wrap'>
+			    <div>
+			    	<img src="images/hero-image-1.jpeg" />
+			    	<h2>13000 NATUTICAL MILES<br/>
+						40-90 DAYS<br/>
+						1 CHALLENGE
+					</h2>
+					<div id="button"><a href="javascript:;">DISCOVER MORE</a></div>
+			    </div>
+			    <div></div>
+			    <div></div>
+			  </div>
+			</div>
+			
+			<div class="container">
+				<div class="main-container">
+					<div class="main-container-top">
+						<img id="video" src="images/home-video.png" />
+						<div id="braeking_news">
+						<h2>BREAKING NEWS</h2>
 						<ul>
-							<li>MacBook Air (2012 年或之后的机型)</li>
-							<li>MacBook Pro (2012 年或之后的机型)</li>
-							<li>iMac (2012 年或之后的机型)</li>
-							<li>Mac mini (2012 年或之后的机型)</li>
-							<li>Mac Pro (2013 年后期的机型)</li>
+							<li>
+								<img src="images/dbfd7826022a6a98478fa513f238366a_normal.jpeg">
+								<p>RT @StoryPR:One year ago today , there is a copy cat in china names sina weibo…..</p>
+							</li>
+							<li>
+								<img src="images/dbfd7826022a6a98478fa513f238366a_normal.jpeg">
+								<p>RT @StoryPR:One year ago today , there is a copy cat in china names sina weibo…..</p>
+							</li>
+							<li>
+								<img src="images/dbfd7826022a6a98478fa513f238366a_normal.jpeg">
+								<p>RT @StoryPR:One year ago today , there is a copy cat in china names sina weibo…..</p>
+							</li>
+							<li>
+								<img src="images/dbfd7826022a6a98478fa513f238366a_normal.jpeg">
+								<p>RT @StoryPR:One year ago today , there is a copy cat in china names sina weibo…..</p>
+							</li>
+							<li>
+								<img src="images/dbfd7826022a6a98478fa513f238366a_normal.jpeg">
+								<p>RT @StoryPR:One year ago today , there is a copy cat in china names sina weibo…..</p>
+							</li>
+							<li>
+								<img src="images/dbfd7826022a6a98478fa513f238366a_normal.jpeg">
+								<p>RT @StoryPR:One year ago today , there is a copy cat in china names sina weibo…..</p>
+							</li>
 						</ul>
-
-						<p>Handoff 功能要求使用配备 Lightning 接口和安装 iOS 8 的 iPhone、iPad 或 iPod touch。</p>
-						<p>Instant Hotspot 功能要求使用配备蜂窝网络连接以及 Lightning 接口和安装 iOS 8.1 的 iPhone 或 iPad。要求使用运营商提供的个人热点服务。</p>
-
-						<h4>通话功能</h4>
-						<p>通话功能要求使用安装 iOS 8 的 iPhone。要求使用激活的运营商资费计划。</p>
-						<h4>SMS</h4>
-						<p>SMS 要求使用安装 iOS 8.1 的 iPhone。要求使用激活的运营商资费计划。</p>
-						<h4>AirDrop</h4>
-						<p>以下 Mac 机型支持 Mac 电脑和 iOS 设备之间的 AirDrop 功能：</p>
-
-						<ul>
-							<li>MacBook Air (2012 年或之后的机型)</li>
-							<li>MacBook Pro (2012 年或之后的机型)</li>
-							<li>iMac (2012 年或之后的机型)</li>
-							<li>Mac mini (2012 年或之后的机型)</li>
-							<li>Mac Pro (2013 年后期的机型)</li>
-						</ul>
-
-						<p>在 iOS 设备上使用 AirDrop 功能，要求使用配备 Lightning 接口并安装 iOS 7 或更新版本的 iPhone、iPad 或 iPod touch。</p>
-						<p>以下 Mac 机型支持在两台 Mac 电脑之间使用 AirDrop 功能：</p>
-
-						<ul>
-							<li>MacBookPro (2008 年后期或之后的机型)*</li>
-							<li>MacBook Air (2010 年后期或之后的机型)</li>
-							<li>MacBook (2008 年后期或之后的机型)*</li>
-							<li>iMac (2009 年前期或之后的机型)</li>
-							<li>Mac mini (2010 年中期或之后的机型)</li>
-							<li>Mac Pro (2009 年前期推出配备 AirPort Extreme 卡的机型，以及 2010 年中期或之后的机型)</li>
-						</ul>
-
-						<h4>Time Machine</h4>
-						<p>需要一个额外的硬盘或 AirPort Time Capsule (需单独购买)。</p>
-						<h4>Photo Booth</h4>
-						<p>须配备 FaceTime 或 iSight 摄像头 (内置或外置)、USB 视频类 (UVC) 摄像头或 FireWire DV 摄像机。如需在使用 DV 摄像机时实现背景特效，须配备定焦、曝光及白平衡功能。</p>
-						<h4>FaceTime</h4>
-						<p>视频通话要求使用内置的 FaceTime 摄像头、iSight 摄像头 (内置或外置)、USB 视频类 (UVC) 摄像头或 FireWire DV 摄像机，以及 128-Kbps 上行和下行互联网连接。进行 HD 高清视频通话须使用内置的 FaceTime HD 高清摄像头和 1-Mbps 上行和下行互联网连接。接收 HD 高清视频通话须使用支持此功能且配备 Intel 处理器的 Mac。<a href="javascript:;">了解更多</a></p>
+						</div>
 					</div>
-
-					<div class="detail">
-						<h4>Boot Camp</h4>
-						<p>支持现有通过 Boot Camp 分区安装的 Windows XP Service Pack 2、Windows Vista 或 Windows 7。安装新版 Boot Camp 须使用 Windows 7 或 Windows 8 (需单独购买)。</p>
-						<h4>Exchange 支持</h4>
-						<p>要求使用 Microsoft Exchange Server 2007 Service Pack 1 Update Rollup 4、Exchange Server 2010 或 Exchange 2013。自动设置要求启用 Microsoft Exchange Server 上的 Autodiscovery 功能。</p>
-						<h4>AirPlay 镜像</h4>
-						<p>要求使用 Apple TV (第二代或更新版本)。以下 Mac 机型支持此功能：</p>
-
+					<div id="promo">
 						<ul>
-							<li>MacBook Pro (2011 年前期或之后的机型)</li>
-							<li>MacBook Air (2011 年中期或之后的机型)</li>
-							<li>iMac (2011 年中期或之后的机型)</li>
-							<li>Mac mini (2011 年中期或之后的机型)</li>
-							<li>Mac Pro (2013 年后期的机型)</li>
+							<li>
+								<div class="more"><h5>MORE</h5></div>
+								<div class="img"><img src="images/promo-1.png" /></div>
+								<p>TITLE<br/>THIS IS A DESCRIPTION</p>
+							</li>
+							<li style="margin:0px 2.5%">
+								<div class="more"><h5>MORE</h5></div>
+								<div class="img"><img src="images/promo-1.png" /></div>
+								<p>TITLE<br/>THIS IS A DESCRIPTION</p>
+							</li>
+							<li>
+								<div class="more"><h5>MORE</h5></div>
+								<div class="img"><img src="images/promo-1.png" /></div>
+								<p>TITLE<br/>THIS IS A DESCRIPTION</p>
+							</li>
 						</ul>
-
-						<h4>点对点 AirPlay</h4>
-						<p>要求使用配备 OS X Yosemite 的 Mac (2012 年或之后的机型) 和配备 Apple TV 软件 7.0 或更新版本的 Apple TV (第三代 rev A，A1469 型号或更新机型)。</p>
-						<h4>Power Nap</h4>
-						<p>以下 Mac 机型支持此功能：</p>
-						
-
-						<ul>
-							<li>配备 Retina 显示屏的 MacBook Pro (2012 年中期或之后的机型)</li>
-							<li>MacBook Air (2010 年后期或之后的机型)</li>
-							<li>iMac (2012 年后期或之后的机型)</li>
-							<li>Mac mini (2012 年后期或之后的机型)</li>
-							<li>Mac Pro (2013 年后期的机型)</li>
-						</ul>
-
-						<h4>手势</h4>
-						<p>要求使用 Multi‑Touch 触控板、Magic Trackpad 或 Magic Mouse。</p>
-						<h4>VoiceOver 手势</h4>
-						<p>要求使用 Multi‑Touch 触控板或 Magic Trackpad。</p>
-						<h4>听写功能</h4>
-						<p>要求使用麦克风 (内置或外置)。</p>
-						<h4>Mac App Store</h4>
-						<p>仅向美国和其他许多国家年满 13 周岁的用户提供。要求使用兼容的硬件、软件与互联网接入，建议使用宽带网络 (可能需要付费)。须遵守服务条款。</p>
 					</div>
 				</div>
 			</div>
+			
+			<div class="footer">
+				<div class="friend_links">
+					<ul>
+						<li>
+							<img src="images/footer-image1.jpg">
+						</li>
+						<li>
+							<img src="images/footer-image2.jpg">
+						</li>
+						<li>
+							<img src="images/Puertos-de-Tenerife.jpg">
+						</li>
+						<li>
+							<img src="images/footer-image4.jpg">
+						</li>
+						<li>
+							<img src="images/Islas-Canarias.jpg">
+						</li>
+						<li>
+							<img src="images/footer-image6.jpg">
+						</li>
+					</ul>	
+				</div>
 
-			<div class="bottom_info" id="bottom_info3">
-				<h3>所含内容</h3>
+				<div class="footer_links">
+					<img src="images/talisker.png">
 
-				<div class="main_info">
-					<div class="info">
-						<h4>应用软件</h4>
-						<ul>
-							<li>Automator</li>
-							<li>计算器</li>
-							<li>日历</li>
-							<li>国际象棋</li>
-							<li>通讯录</li>
-							<li>Dashboard</li>
-							<li>词典</li>
-							<li>DVD 播放程序</li>
-							<li>FaceTime</li>
-							<li>字体册</li>
-							<li>iBooks</li>
-							<li>图像捕捉</li>
-							<li>iTunes</li>
-							<li>Launchpad</li>
-							<li>Mac App Store</li>
-							<li>邮件</li>
-							<li>地图</li>
-							<li>信息</li>
-							<li>Mission Control</li>
-							<li>备忘录</li>
-							<li>Photo Booth</li>
-							<li>预览</li>
-							<li>QuickTime Player</li>
-							<li>提醒事项</li>
-							<li>Safari</li>
-							<li>便笺</li>
-							<li>系统偏好设置</li>
-							<li>文本编辑</li>
-							<li>Time Machine</li>
-						</ul>
-						<a href="javascript:;"><p>进一步了解内置APP</p></a>
-					</div>
 
-					<div class="info">
-						<h4>实用工具</h4>
-						<ul>
-							<li>活动监视器</li>
-							<li>AirPort 实用工具</li>
-							<li>AppleScript 编辑器</li>
-							<li>音频 MIDI 设置</li>
-							<li>蓝牙文件交换</li>
-							<li>Boot Camp 助理</li>
-							<li>ColorSync 实用工具</li>
-							<li>控制台</li>
-							<li>数码测色计</li>
-							<li>磁盘工具</li>
-							<li>抓图</li>
-							<li>Grapher</li>
-							<li>钥匙串访问</li>
-							<li>迁移助理</li>
-							<li>系统信息</li>
-							<li>终端</li>
-							<li>VoiceOver 实用工具</li>
-						</ul>
-					</div>
+					<ul class="links1">
+						<li><a href="javascript:;">Terms & Conditions</a></li>
+						<li><a href="javascript:;">Privacy & Cookie Notice</a></li>
+						<li><a href="javascript:;">Drinkaware</a></li>
+						<li><a href="javascript:;">DRINKiQ</a></li>
+					</ul>
 
-					<div class="info">
-						<h4>语言版本</h4>
-						<ul>
-							<li>阿拉伯文</li>
-							<li>加泰罗尼亚文</li>
-							<li>克罗地亚文</li>
-							<li>简体中文</li>
-							<li>繁体中文</li>
-							<li>捷克文</li>
-							<li>丹麦文</li>
-							<li>荷兰文</li>
-							<li>英文</li>
-							<li>芬兰文</li>
-							<li>法文</li>
-							<li>德文</li>
-							<li>希腊文</li>
-							<li>希伯来文</li>
-							<li>匈牙利文</li>
-							<li>印度尼西亚文</li>
-							<li>意大利文</li>
-							<li>日文</li>
-							<li>韩文</li>
-							<li>马来文</li>
-							<li>挪威文</li>
-							<li>波兰文</li>
-							<li>葡萄牙文 (巴西)</li>
-							<li>葡萄牙文 (葡萄牙)</li>
-							<li>罗马尼亚文</li>
-							<li>俄文</li>
-							<li>斯洛伐克文</li>
-							<li>西班牙文</li>
-							<li>西班牙文 (墨西哥)</li>
-							<li>瑞典文</li>
-							<li>泰文</li>
-							<li>土耳其文</li>
-							<li>乌克兰文</li>
-							<li>越南文</li>
-						</ul>
-					</div>	
+					<ul class="links2">
+						<li><a href="javascript:;">THE CHALLENGE</a></li>
+						<li><a href="javascript:;">THE TEAMS</a></li>
+						<li><a href="javascript:;">IMAGE & VIDEOS</a></li>
+						<li><a href="javascript:;">NEWS CENTER</a></li>
+						<li><a href="javascript:;">TALISKER WHISKY</a></li>
+						<li><a href="javascript:;">GET IN TOUCH</a></li>
+						<li><a href="javascript:;">RACE TRACKER</a></li>
+					</ul>
 
-				</div>			
+					<p><a href="javascript:;">dainkware.co.uk</a> for the facts about alcohol</br>Talisker and Talisker Storm words and associated logos are trademarks. Diageo 2013</p>
+				</div>
 			</div>
-
 		</div>
 	</body>
 </html>
