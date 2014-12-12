@@ -298,14 +298,14 @@ html, body {
 	overflow: auto;
 }
 
-.container .main-container #braeking_news{
+.container .main-container #breaking_news{
 	width:30%;
 	height:469px;
 	float: right;
 	background-color: white;
 }
 
-.container .main-container #braeking_news h2{
+.container .main-container #breaking_news h2{
 	font-size: 30px;
 	color: #083f66;
 	font-weight: 600;
@@ -313,24 +313,25 @@ html, body {
 	margin:20px 0px 20px 10px;
 }
 
-.container .main-container ul{
+.container .main-container #breaking_news ul{
 	width:100%;
+	height: 395px;
 	overflow-y: auto;
 	list-style: none;
 }
 
-.container .main-container ul li{
+.container .main-container #breaking_news ul li{
 	width: 100%;
 	border-top: 1px solid #e7e7e7;
 }
 
-.container .main-container ul li img{
+.container .main-container #breaking_news ul li img{
 	width:15%;
 	margin: 10px;
 	float: left;
 }
 
-.container .main-container ul li p{
+.container .main-container #breaking_news ul li p{
 	font-size: 13px;
 	margin: 10px;
 }
@@ -389,6 +390,7 @@ html, body {
 
 .container .main-container #promo ul li p{
 	color: white;
+	margin: 10px 10px 10px;
 	font-weight: 600;
 }
 
