@@ -15,6 +15,7 @@
 		</script>	
 		<link rel="stylesheet" type="text/css" href="style/style.css">
 		<link rel="stylesheet" type="text/css" href="style/normalize.css">
+		<link rel="stylesheet" type="text/css" href="style/fonts.css">
 	</head>
 
 	<body>
@@ -56,18 +57,34 @@
 			
 
 			<div id='slider' class='swipe'>
-			  <div class='swipe-wrap'>
-			    <div>
-			    	<img src="images/hero-image-1.jpeg" />
-			    	<h2>13000 NATUTICAL MILES<br/>
+				<img class="prev" src="images/prev.png">
+				<img class="next" src="images/next.png">
+				<div class='swipe-wrap'>
+					<div>
+					  	<img src="images/hero-image-1.jpeg" />
+					  	<h2>13000 NATUTICAL MILES<br/>
 						40-90 DAYS<br/>
 						1 CHALLENGE
-					</h2>
-					<div id="button"><a href="javascript:;">DISCOVER MORE</a></div>
-			    </div>
-			    <div></div>
-			    <div></div>
-			  </div>
+						</h2>
+						<div id="button"><a href="javascript:;">DISCOVER MORE</a></div>
+					</div>
+					<!-- <div>
+						<img src="images/hero-image-1.jpeg" />
+					  	<h2>13000 NATUTICAL MILES<br/>
+						40-90 DAYS<br/>
+						1 CHALLENGE
+						</h2>
+						<div id="button"><a href="javascript:;">DISCOVER MORE</a></div>
+					</div>
+					<div>
+						<img src="images/hero-image-1.jpeg" />
+					  	<h2>13000 NATUTICAL MILES<br/>
+						40-90 DAYS<br/>
+						1 CHALLENGE
+						</h2>
+						<div id="button"><a href="javascript:;">DISCOVER MORE</a></div>
+					</div> -->
+				</div>
 			</div>
 			
 			<div class="container">
@@ -181,3 +198,18 @@
 		</div>
 	</body>
 </html>
+
+
+<script type="text/javascript">
+	window.mySwipe = new Swipe(document.getElementById('slider'), {
+	  	startSlide: 2,
+	  	speed: 400,
+	  	auto: 3000,
+	  	continuous: true,
+	  	disableScroll: false,
+	  	stopPropagation: false,
+	  	callback: function(index, elem) {},
+	  	transitionEnd: function(index, elem) {}
+	});
+
+</script>
